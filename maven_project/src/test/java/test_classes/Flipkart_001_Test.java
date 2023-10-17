@@ -27,7 +27,7 @@ public class Flipkart_001_Test extends FlipKart_Base{
 		List<WebElement> phones = flipKartPage.getPhones();
 		
 		System.out.println("Number of phones visible: "+phones.size());
-		Thread.sleep(2000);
+		
 	}
 
 }
